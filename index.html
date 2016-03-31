@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>DYK Viewer</title>
+
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-bootstrap.min.css" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </head>
+  <body>
+    <h1>DYK Viewer</h1>
+    <div id="status">Loading...</div>
+    <table id="subpages" class="sortable-theme-bootstrap" data-sortable>
+      <tr>
+        <th>Date</th>
+        <th>Title</th>
+        <th data-sortable-type="numeric">Status</th>
+      </tr>
+    </table>
+  </body>
+</html>

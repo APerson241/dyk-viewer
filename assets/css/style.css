@@ -1,0 +1,40 @@
+body {
+    margin: 40px auto;
+    max-width: 650px;
+    font-size: 16px;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 130:
+}
+
+h1, h2, h3 {
+    margin-bottom: 0.25em;
+}
+
+button {
+    cursor: pointer;
+    font-family: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif;
+}
+
+th {
+    text-align: right;
+}
+
+input[type=text],textarea {
+    border-radius: 2px;
+    border: thin solid #CCC;
+    padding: 0.3em;
+}
+
+input[type=text]:focus, textarea:focus {
+    box-shadow: inset 0 0 0 2px #347bff;
+    border-color: #347bff;
+    outline: 0;
+}
